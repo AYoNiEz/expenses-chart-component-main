@@ -1,0 +1,117 @@
+.container .chart-box{
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.chart-box .each-col-box{
+    text-align: center;
+}
+
+.chart-box .column{
+    width: 50px;
+}
+
+
+.chart-box .column:hover .title{
+    opacity: 1;
+}
+
+.chart-box .title{
+    background: #3E2415;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transition: 0.3s ease opacity;
+}
+
+.chart-box .col-bar{
+    display: inline-block;
+    width: 80%;
+    background: #EC755D;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease color;
+}
+
+.chart-box .col-bar:hover{
+    background: #FF9B87;
+}
+
+.chart-box .col-bar.max{
+    background: #76b5bc;
+}
+
+.chart-box .col-bar.max:hover{
+    background: #b4dfe5;
+}
+
+
+.chart-box .each-col-box .day{
+    color: #9b9b9b;
+    font-size: 0.8rem;
+}
+
+
+// .chart{
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -webkit-box-align: end;
+//     -ms-flex-align: end;
+//     align-items: flex-end;
+//     gap: 5px;
+// }
+// .chart .each-col-box{
+//     text-align: center;
+// }
+// .chart .column{
+//     width: 50px;
+// }
+// .chart .column:hover .title{
+//     opacity: 1;
+// }
+// .chart .title{
+//     background-color: $Darkbrown;
+//     width: 100%;
+//     color: white;
+//     border-radius: 5px;
+//     padding: 3px;
+//     font-size: 0.8rem;
+//     display: inline-block;
+//     margin-bottom: 1rem;
+//     opacity: 0;
+//     transition: 0.3s ease opacity;
+// }
+// .chart .col-bar{
+//     display: inline-block;
+//     width: 80%;
+//     background: $Softred;
+//     border-radius: 5px;
+//     cursor: pointer;
+//     transition: 0.3s ease color;
+// }
+// .chart .col-bar:hover{
+//     background: #FF9B87;
+
+// }
+// .chart .col-bar.max{
+//     background: #76b5bc;
+// }
+// .chart .each-col-box .day{
+//     color: #9b9b9b;
+//     font-size: 0.8rem;
+// }
+// .chart .col-bar.max:hover{
+//     background: #b4dfe5;
+// }
